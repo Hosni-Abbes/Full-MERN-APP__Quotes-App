@@ -1,0 +1,73 @@
+/* STYLING HEADER */
+.app-header {
+  height: 60px;
+  background-color: var(--secondColor);
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: auto;
+  width: 100%;
+  border-bottom: 1px solid var(--linesColor);
+  z-index: 999;
+}
+.header-nav {
+  max-width: 975px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin: auto;
+}
+.header-logo {
+  font-size: 20px;
+}
+.search-bar {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  background-color: var(--lightGrey);
+  color: var(--textColor);
+}
+
+.search_result {
+  position: absolute;
+  background: var(--secondColor);
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  top: 43px;
+  height: 120px;
+  overflow: scroll;
+  border: 1px solid var(--linesColor);
+  font-size: 17px;
+}
+
+.my-posts {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: var(--semiBold);
+}
+.user-icon {
+  font-size: 25px;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 25px;
+  border: 1px solid var(--linesColor);
+  padding: 0px 2px 0px;
+  background-color: var(--lightGrey);
+  color: var(--secondColor);
+}
+
+.search-result-err {
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+}

@@ -1,0 +1,49 @@
+.profile_info {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--linesColor);
+  width: 70%;
+  height: 100px;
+  margin: auto;
+}
+
+.profile_name i {
+  margin: 0;
+}
+.profile_username {
+  /* margin-top: 10px; */
+  font-weight: var(--bold);
+}
+
+.profile_posts {
+  width: 100%;
+  padding-top: 15px;
+}
+.user-name-follow {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+}
+.follow-user {
+  width: 60px;
+  margin-left: 30px;
+  color: var(--secondColor);
+  background-color: var(--blueColor);
+  outline: none;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}

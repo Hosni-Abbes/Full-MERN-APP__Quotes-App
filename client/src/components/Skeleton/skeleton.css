@@ -1,0 +1,141 @@
+/* POSTS SKELETON */
+._postSkeleton {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid var(--linesColor);
+}
+.post-topSkeleton {
+  display: flex;
+  align-items: center;
+}
+.user-iconSkeleton,
+.profileSkeletonIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: var(--linesColor);
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.user-name-dateSkeleton {
+  display: flex;
+  flex-direction: column;
+}
+.user-nameSkeleton {
+  width: 100px;
+  height: 14px;
+  background-color: var(--linesColor);
+  margin-bottom: 2px;
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.post-dateSkeleton {
+  width: 90px;
+  height: 14px;
+  background-color: var(--linesColor);
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.post-contentSkeleton {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 10px;
+}
+.post-descSkeleton {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 5px;
+  background-color: var(--linesColor);
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.post-bottomSkeleton {
+  display: flex;
+  align-items: center;
+}
+.post-likeSkeleton {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--linesColor);
+  margin-right: 10px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.post-likes-numberSkeleton {
+  width: 50px;
+  height: 14px;
+  background-color: var(--linesColor);
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+
+/* FOLLOWNGS SKELETON */
+.followerSkeleton {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+.followerSkeletonIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--linesColor);
+  margin-right: 8px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.followerSkeletonName {
+  width: 100px;
+  height: 16px;
+  background-color: var(--linesColor);
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+
+/* PROFILE SKELETON  */
+.profile_nameSkeleton {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--linesColor);
+  width: 70%;
+  height: 100px;
+  margin: auto;
+}
+.profileSkeletonIcon {
+  margin: 0;
+}
+.userInfoSkeleton {
+  display: flex;
+  margin-top: 10px;
+}
+.profile_usernameSkeleton {
+  width: 60px;
+  height: 16px;
+  background-color: var(--linesColor);
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+.followBtnSkeleton {
+  width: 60px;
+  height: 16px;
+  margin-left: 30px;
+  background-color: var(--linesColor);
+  border-radius: 4px;
+  animation: skeleton-animation ease 1s infinite alternate;
+}
+
+/* SKELETON ANIMATION */
+@keyframes skeleton-animation {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

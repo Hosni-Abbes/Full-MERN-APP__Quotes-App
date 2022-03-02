@@ -1,0 +1,82 @@
+/* all posts section */
+.all-posts {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 767px;
+  margin: 0 auto;
+}
+._post {
+  position: relative;
+  background-color: var(--secondColor);
+  margin: 20px 0;
+  border: 1px solid var(--linesColor);
+  width: 100%;
+}
+.post-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 14px 0;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+}
+.user-name-date {
+  display: flex;
+  flex-direction: column;
+}
+.user-name {
+  font-weight: var(--semiBold);
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.post-date {
+  font-size: 12px;
+}
+.edit-post {
+  cursor: pointer;
+  font-weight: var(--semiBold);
+  padding: 6px;
+  transition: var(--transition);
+}
+.edit-post:hover {
+  background-color: var(--lightGrey);
+  border-radius: 50%;
+}
+
+/* post content */
+.post-content {
+  margin: 14px;
+}
+.post-desc {
+  font-size: 18px;
+}
+/* post bottom part */
+.post-bottom {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--linesColor);
+  padding: 14px;
+}
+.post-like {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 6px;
+  color: var(--darkGrey);
+  transition: var(--transition);
+}
+.post-like:hover {
+  color: var(--linesColor);
+}
+.post-likes-number {
+  font-weight: var(--semiBold);
+}
+.no-quotes-msg {
+  margin-top: 30%;
+  font-size: 18px;
+  color: var(--textColor);
+}

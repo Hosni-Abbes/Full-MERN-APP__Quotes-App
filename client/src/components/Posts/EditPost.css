@@ -1,0 +1,33 @@
+.popup_mult_class {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondColor);
+  border: 1px solid var(--linesColor);
+  border-radius: 6px;
+  z-index: 1001;
+  width: 270px;
+  justify-content: space-between;
+}
+.popup_mult_class span,
+.popup_mult_class a {
+  cursor: pointer;
+  border-bottom: 1px solid var(--linesColor);
+  font-size: 16px;
+  font-weight: var(--medium);
+  transition: var(--transition);
+  width: 100%;
+  padding: 24px;
+}
+.popup_mult_class span:last-of-type {
+  border-bottom: none;
+}
+.popup_mult_class span:hover {
+  background-color: var(--lightGrey);
+}
+.popup_mult_class i {
+  margin-right: 20px;
+}
